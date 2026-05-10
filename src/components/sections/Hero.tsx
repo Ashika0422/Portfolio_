@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
@@ -58,8 +58,15 @@ export function Hero() {
               View Work
             </a>
             <a
+              href="/alex-morgan-cv.pdf"
+              download
+              className="inline-flex items-center gap-2 glass px-7 py-3.5 rounded-full text-foreground hover:border-primary/60 hover:text-primary transition-colors"
+            >
+              <Download size={16} /> Download CV
+            </a>
+            <a
               href="#contact"
-              className="glass px-7 py-3.5 rounded-full text-foreground hover:border-primary/60 transition-colors"
+              className="px-7 py-3.5 rounded-full text-muted-foreground hover:text-foreground transition-colors"
             >
               Get in Touch
             </a>
