@@ -30,7 +30,7 @@ type CertificationItem = {
 const achievements: HighlightItem[] = [
   {
     typeLabel: "Achievement",
-    title: "1st runner up - Hackathon",
+    title: "1st runner up - MiniHackathon 2025",
     subtitle: "International Conference in Data Science '25",
     date: "November 2025",
     location: "Stat Circle, University of Colombo",
