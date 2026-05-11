@@ -8,25 +8,21 @@ export function About() {
       title={<span>A bit about <span className="text-gradient">me</span>.</span>}
     >
       <div className="grid md:grid-cols-3 gap-10">
-        <div className="md:col-span-2 space-y-5 text-lg text-muted-foreground leading-relaxed">
+        <div className="md:col-span-2 space-y-5 text-lg text-muted-foreground leading-relaxed text-justify">
           <p>
-            I'm a software engineer based in Berlin with five years of experience
-            shipping web platforms used by hundreds of thousands of people.
-            I care about clean architecture, accessible design, and the small
-            interactions that make products memorable.
+            I am a Computer Science undergraduate at University of Kelaniya with a strong interest in Software Development, Data Science, and Machine Learning. I enjoy building practical projects, learning new technologies, and improving my problem-solving skills through real-world experiences and teamwork.
+
           </p>
           <p>
-            Outside of code I'm usually behind a film camera, brewing pour-over,
-            or hiking somewhere with poor cell reception. I believe the best
-            software borrows its rhythm from physical craft.
+           Outside of academics, I enjoy watching K-dramas, gardening, and painting. I believe in staying positive, working hard, and continuously learning new things. My goal is to become a Data Scientist or Software Engineer and use technology to create meaningful and useful solutions for the future.
           </p>
         </div>
         <div className="space-y-4">
           {[
-            { k: "Based in", v: "Berlin, DE" },
-            { k: "Experience", v: "5+ years" },
-            { k: "Focus", v: "Web · Product · Systems" },
-            { k: "Available", v: "Q3 2026" },
+            { k: "Based in", v: "Colombo, Sri Lanka" },
+            { k: "Education", v: "B.Sc. Computer Science" },
+            { k: "Focus", v: "Data Science • Web • ML" },
+            { k: "Available", v: "Open to Internships" },
           ].map((row) => (
             <div
               key={row.k}

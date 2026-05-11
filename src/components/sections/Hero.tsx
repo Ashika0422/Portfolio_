@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
+import heroImage from "@/assets/dp.png";
 
 export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center px-6 pt-32 pb-20 overflow-hidden"
+      className="relative min-h-screen flex items-start px-6 pt-16 pb-10 md:pt-20 md:pb-14 lg:pt-24 lg:pb-16 overflow-hidden"
     >
       <div
         className="absolute inset-0 -z-10 opacity-40"
@@ -27,29 +28,30 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05]"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05]"
           >
-            <span className="text-gradient">Alex Morgan</span>
+            <span className="text-gradient">Ashika</span>
             <br />
-            <span className="text-foreground/90">crafting calm</span>
-            <br />
-            <span className="text-muted-foreground">digital products.</span>
+            <span className="text-gradient">Chamodi</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed"
+            className="mt-4 max-w-xl text-lg text-muted-foreground leading-relaxed"
           >
-            Full-stack engineer & designer focused on thoughtful interfaces,
-            performant systems, and the quiet details that make software feel
-            effortless.
+            Computer Science undergraduate interested in{" "}
+            <span className="text-gradient">Software Development</span>,{" "}
+            <span className="text-gradient">Data Science</span>, and{" "}
+            <span className="text-gradient">Machine Learning</span>. Passionate
+            about building practical projects, solving problems, and learning new
+            technologies.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="mt-10 flex flex-wrap items-center gap-4"
+            className="mt-5 flex flex-wrap items-center gap-4"
           >
             <a
               href="#projects"
@@ -58,7 +60,7 @@ export function Hero() {
               View Work
             </a>
             <a
-              href="/alex-morgan-cv.pdf"
+              href="/Ashika_Chamodi.pdf"
               download
               className="inline-flex items-center gap-2 glass px-7 py-3.5 rounded-full text-foreground hover:border-primary/60 hover:text-primary transition-colors"
             >
@@ -72,9 +74,9 @@ export function Hero() {
             </a>
             <div className="flex gap-3 ml-2">
               {[
-                { Icon: Github, href: "#" },
-                { Icon: Linkedin, href: "#" },
-                { Icon: Mail, href: "#contact" },
+                { Icon: Github, href: "https://github.com/Ashika0422" },
+                { Icon: Linkedin, href: "https://linkedin.com/in/ashika-chamodi/" },
+                { Icon: Mail, href: "mailto:ashikadandeniya@gmail.com" },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
@@ -94,14 +96,15 @@ export function Hero() {
           transition={{ delay: 0.3 }}
           className="relative aspect-square max-w-md mx-auto"
         >
-          <div className="absolute inset-0 rounded-full bg-gradient-primary blur-3xl opacity-30" />
-          <div className="relative w-full h-full rounded-[2.5rem] glass shadow-glow overflow-hidden grid place-items-center">
-            <div className="text-[10rem] font-display font-bold text-gradient leading-none">
-              A
-            </div>
-            <div className="absolute bottom-6 left-6 right-6 flex justify-between text-xs uppercase tracking-widest text-muted-foreground">
-              <span>est. 2019</span>
-              <span>v.5</span>
+          <div className="absolute inset-0 rounded-full bg-gradient-primary blur-[70px] opacity-60" />
+          <div className="absolute -inset-6 rounded-full bg-gradient-primary blur-[90px] opacity-35" />
+          <div className="relative w-full h-full rounded-full p-2 bg-gradient-primary shadow-glow">
+            <div className="relative w-full h-full rounded-full overflow-hidden bg-card">
+              <img
+                src={heroImage}
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </motion.div>

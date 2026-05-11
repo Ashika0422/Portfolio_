@@ -2,37 +2,37 @@ import { Section } from "./Section";
 
 const experience = [
   {
-    role: "Senior Software Engineer",
-    org: "Lumen Labs",
-    period: "2023 — Present",
-    desc: "Lead engineer on the core platform. Shipped a full design-system rewrite and reduced p95 latency by 60%.",
+    role: "Vice Secretary",
+    org: "IEEE Computer Society Chapter, University of Kelaniya",
+    period: "2025 — Present",
+    desc: "",
   },
   {
-    role: "Software Engineer",
-    org: "Northwind",
-    period: "2021 — 2023",
-    desc: "Built data-heavy dashboards and an internal component library used by 40+ engineers.",
+    role: "Co-Editor",
+    org: "Computer Science Students Association, University of Kelaniya",
+    period: "2024 — 2025",
+    desc: "",
   },
   {
-    role: "Frontend Developer",
-    org: "Studio Kova",
-    period: "2019 — 2021",
-    desc: "Crafted bespoke marketing sites and product UIs for early-stage startups.",
+    role: "Co-Editor",
+    org: "ISACA Student Group, University of Kelaniya",
+    period: "2024 — 2025",
+    desc: "",
   },
 ];
 
 const education = [
   {
-    role: "B.Sc. Computer Science",
-    org: "TU Munich",
-    period: "2015 — 2019",
-    desc: "Thesis on perceptual color spaces in data visualization. Graduated with honors.",
+    role: "B.Sc. (Hons) in Computer Science",
+    org: "University of Kelaniya",
+    period: "2023 — Present",
+    desc: "Data Science | CGPA: 3.96/4.00 · Dalugama, Sri Lanka",
   },
   {
-    role: "Exchange Program",
-    org: "University of Tokyo",
-    period: "2018",
-    desc: "Semester focused on HCI and interaction design research.",
+    role: "G.C.E. A/L (2021)",
+    org: "Rajapaksha Central College",
+    period: "2012 — 2020",
+    desc: "Combined Maths A, Physics B, Chemistry B | Z Score 1.5841 · Weeraketiya, Sri Lanka",
   },
 ];
 

@@ -34,8 +34,7 @@ export function Navbar() {
         style={scrolled ? { padding: "0.6rem 1.25rem" } : undefined}
       >
         <a href="#home" className="font-display text-lg font-bold tracking-tight">
-          <span className="text-gradient">portfolio</span>
-          <span className="text-primary">.</span>
+          <span className="text-gradient">ashika.</span>
         </a>
         <nav className="hidden md:flex items-center gap-7 text-sm">
           {links.map((l) => (

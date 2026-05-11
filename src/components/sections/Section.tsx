@@ -13,13 +13,16 @@ export function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} className="px-6 py-28 scroll-mt-20">
+    <section
+      id={id}
+      className="px-6 pt-8 pb-14 md:pt-10 md:pb-18 lg:pt-12 lg:pb-20 scroll-mt-8 md:scroll-mt-10"
+    >
       <div className="mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
-          className="mb-14"
+          className="mb-10 md:mb-12"
         >
           <p className="text-xs uppercase tracking-[0.3em] text-primary mb-3">
             {eyebrow}
