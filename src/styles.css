@@ -139,6 +139,22 @@
 }
 
 @layer utilities {
+  @keyframes icon-marquee {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  .icon-marquee-mask {
+    overflow: hidden;
+  }
+  .icon-marquee {
+    width: max-content;
+    animation: icon-marquee 28s linear infinite;
+    will-change: transform;
+  }
   .text-gradient {
     background: var(--gradient-text);
     -webkit-background-clip: text;
