@@ -49,6 +49,12 @@ const achievements: HighlightItem[] = [
 
 const certifications: CertificationItem[] = [
   {
+    title: "Data Analysis and Visualization with Power BI",
+    issuer: "Microsoft",
+    file: "/certificates/power-bi.png",
+    verifyUrl: "https://www.coursera.org/account/accomplishments/verify/EG7NEWGVHQPM",
+  },
+  {
     title: "Linux Essentials Certification",
     issuer: "Cisco Networking Academy",
     file: "/certificates/linux-essentials.jpg",
