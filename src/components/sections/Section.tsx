@@ -1,21 +1,28 @@
 import { motion } from "framer-motion";
 import type { ReactNode } from "react";
 
+import { cn } from "@/lib/utils";
+
 export function Section({
   id,
   eyebrow,
   title,
   children,
+  className,
 }: {
   id: string;
   eyebrow: string;
   title: ReactNode;
   children: ReactNode;
+  className?: string;
 }) {
   return (
     <section
       id={id}
-      className="px-6 pt-8 pb-14 md:pt-10 md:pb-18 lg:pt-12 lg:pb-20 scroll-mt-8 md:scroll-mt-10"
+      className={cn(
+        "px-6 pt-8 pb-14 md:pt-10 md:pb-18 lg:pt-12 lg:pb-20 scroll-mt-8 md:scroll-mt-10",
+        className,
+      )}
     >
       <div className="mx-auto max-w-6xl">
         <motion.div

@@ -11,13 +11,13 @@ import { Contact } from "@/components/sections/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Software Engineer & Designer" },
+      { title: "Ashika Chamodi — Software Engineer & Designer" },
       {
         name: "description",
         content:
-          "Personal portfolio of Alex Morgan: full-stack engineer and designer crafting calm, accessible digital products.",
+          "Personal portfolio of Ashika Chamodi: full-stack engineer and designer crafting calm, accessible digital products.",
       },
-      { property: "og:title", content: "Alex Morgan — Software Engineer & Designer" },
+      { property: "og:title", content: "Ashika Chamodi — Software Engineer & Designer" },
       {
         property: "og:description",
         content: "Selected work, experience, and achievements.",
