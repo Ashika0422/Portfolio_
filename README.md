@@ -8,7 +8,7 @@ This repository contains a responsive, accessible, and performance-focused portf
 
 ## Live Demo
 
-- https://portfolio-seven-cyan-tzwhjtcla2.vercel.app
+- ashikachamodi.vercel.app
 
 ## Key Features
 
