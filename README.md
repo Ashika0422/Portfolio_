@@ -19,7 +19,6 @@ This repository contains a responsive, accessible, and performance-focused portf
 - React / TSX components
 - Vite (dev server and build)
 - CSS (utility or plain CSS in `src/styles.css`)
-- Optional: Cloudflare Workers/Pages (project contains `wrangler.jsonc`)
 
 ## Project Structure
 
