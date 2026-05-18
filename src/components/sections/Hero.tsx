@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
-import heroImage from "@/assets/dp.png";
+import heroImage from "@/assets/dp.jpeg";
 
 export function Hero() {
   return (
