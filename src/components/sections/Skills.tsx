@@ -7,7 +7,7 @@ const groups = [
   },
   {
     title: "Databases",
-    items: ["MySQL", "PostgreSQL", "PL/SQL"],
+    items: ["MySQL", "PostgreSQL", "PL/SQL", "SQL Server"],
   },
   {
     title: "Frameworks",
@@ -15,7 +15,7 @@ const groups = [
   },
   {
     title: "Libraries",
-    items: ["NumPy", "Pandas", "Matplotlib", "Seaborn"],
+    items: ["NumPy", "Pandas", "Matplotlib", "Scikit-learn", "Seaborn"],
   },
   {
     title: "Tools",
@@ -23,7 +23,7 @@ const groups = [
   },
   {
     title: "Cloud & Version Control",
-    items: ["Azure", "AWS", "Hugging Face", "Git", "GitHub"],
+    items: ["Azure","Hugging Face", "Vercel", "Git", "GitHub"],
   },
 ];
 
@@ -115,16 +115,16 @@ export function Skills() {
       eyebrow="Skills"
       title={<span>Tools I reach for <span className="text-gradient">often</span>.</span>}
     >
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {skillGroupsTop.map((g) => (
           <div
             key={g.title}
             className="glass rounded-xl p-4 hover:border-primary/50 transition-colors"
           >
-            <h3 className="text-base font-semibold mb-3 text-gradient">
+            <h3 className="text-lg font-semibold mb-2 text-gradient">
               {g.title}
             </h3>
-            <ul className="space-y-1.5 text-xs text-muted-foreground">
+            <ul className="space-y-1.5 text-sm text-muted-foreground">
               {g.items.map((i) => (
                 <li key={i} className="flex items-center gap-2">
                   <span className="w-1 h-1 rounded-full bg-primary" />
@@ -136,18 +136,18 @@ export function Skills() {
         ))}
       </div>
 
-      <div className="icon-marquee-mask my-6">
-        <div className="icon-marquee flex items-center gap-4 pr-6">
+      <div className="icon-marquee-mask my-3">
+        <div className="icon-marquee flex items-center gap-3 pr-4">
           {iconStrip.map((icon, idx) => (
             <div
               key={`${icon.name}-${idx}`}
-              className="w-12 h-12 rounded-2xl glass grid place-items-center shrink-0"
+              className="w-10 h-10 rounded-2xl glass grid place-items-center shrink-0"
               title={icon.name}
             >
               <img
                 src={icon.src}
                 alt={`${icon.name} logo`}
-                className={`w-7 h-7 ${icon.className ?? ""}`}
+                className={`w-6 h-6 ${icon.className ?? ""}`}
                 loading="lazy"
                 decoding="async"
               />
@@ -156,16 +156,16 @@ export function Skills() {
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {skillGroupsBottom.map((g) => (
           <div
             key={g.title}
             className="glass rounded-xl p-4 hover:border-primary/50 transition-colors"
           >
-            <h3 className="text-base font-semibold mb-3 text-gradient">
+            <h3 className="text-lg font-semibold mb-2 text-gradient">
               {g.title}
             </h3>
-            <ul className="space-y-1.5 text-xs text-muted-foreground">
+            <ul className="space-y-1.5 text-sm text-muted-foreground">
               {g.items.map((i) => (
                 <li key={i} className="flex items-center gap-2">
                   <span className="w-1 h-1 rounded-full bg-primary" />
