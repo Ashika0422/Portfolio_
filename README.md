@@ -6,6 +6,10 @@ Personal portfolio website showcasing projects, experience, skills, and achievem
 
 This repository contains a responsive, accessible, and performance-focused portfolio built with TypeScript and modern web tooling. It includes sections for a hero, projects, experience, skills, achievements, and contact information. The site is structured for easy content updates and static deployment.
 
+## Live Demo
+
+- https://portfolio-seven-cyan-tzwhjtcla2.vercel.app
+
 ## Key Features
 
 - Clean, responsive UI with accessible components
@@ -24,7 +28,7 @@ This repository contains a responsive, accessible, and performance-focused portf
 
 - `src/` — application source code and React/TSX components
   - `components/` — UI components and section components
-  - `routes/` — page entry files
+  - `App.tsx` / `main.tsx` — SPA entry and composition
   - `lib/` — utilities and helpers
 - `public/` — static assets (projects, certificates, achievements, images)
 - `package.json`, `vite.config.ts`, `tsconfig.json` — build and tooling config
