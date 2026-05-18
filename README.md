@@ -8,7 +8,7 @@ This repository contains a responsive, accessible, and performance-focused portf
 
 ## Live Demo
 
-- ashikachamodi.vercel.app
+- [ashikachamodi.vercel.app](https://ashikachamodi.vercel.app/)
 
 ## Key Features
 
